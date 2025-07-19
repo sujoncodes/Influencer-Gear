@@ -5,6 +5,10 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+:root{
+    --primary-color: #E02C6D;
+    --p-color: #6C6C6C;
+}
 body{
     background-color: #F4F4F4;
 }
@@ -16,6 +20,8 @@ body{
     background-color: #E02C6D;
     border: none;
     border-radius: 41px;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 /* header style */
 .navbar{
@@ -127,6 +133,7 @@ body{
 }
 .card p{
     font-size: 0.9rem;
+    color: var(--p-color);
     
 }
 /* container style */
@@ -139,6 +146,7 @@ body{
     font-size: 1rem;
     margin-top: 20px;
     color: #E02C6D;
+    letter-spacing: 3px;
 }
 
 .card-container{
@@ -147,5 +155,83 @@ body{
     row-gap: 30px;
     column-gap: 30px;
     
+}
+/* feature section */
+.feature-products{
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    height: 270px;
+    margin: 100px auto;
+    
+    padding: 0px 0px;
+}
+.feature-join{
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+    align-items: center;
+}
+.feature-img{
+    width: 404px;
+    height: 270px;
+}
+.feature-join h3{
+    font-size: 2.2rem;
+}
+.feature-join p{
+    width: 501px;
+    height:88px;
+    font-size: 1rem;
+    margin: 16px 0px;
+    color: var(--p-color);
+}
+/* footer style */
+footer{
+    height: 239px;
+    width: 100%;
+    background-color: #0a0826;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container{
+    width: 300px;
+    height: 139px;
+    color: #fff;
+    text-align: center;
+}
+.footer-container h4{
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+}
+.footer-container h5{
+    font-size: 0.9rem;
+    font-weight: 200;
+    margin-bottom: 3px;
+}
+.footer-icons{
+     margin-top: 10px ;
+}
+.footer-icons ul{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+   
+   
+
+}
+.footer-icons ul li{
+    list-style-type: none;
+    font-size: 1.2rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: rgba(58, 57, 57, 0.716);
+   
+}
+.footer-icons ul li a{
+    text-decoration: none;
+    color: #d9cece;
 }
 
